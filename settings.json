@@ -1,20 +1,28 @@
 {
-
-    "[html]": {
-        "editor.tabSize": 2
-    },
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
-    "[css]": {
-        "editor.tabSize": 2
-    },
-    "[javascriptreact]": {
-        "editor.tabSize": 2
-    },
-    "files.autoSave": "afterDelay",
-    "python.pythonPath": "/usr/lib/python3.8",
-    "python.autoComplete.extraPaths": [
-        "${workspaceFolder}/customModule"
-    ]
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "files.autoSave": "afterDelay",
+  "python.pythonPath": "/usr/lib/python3.8",
+  "python.autoComplete.extraPaths": ["${workspaceFolder}/customModule"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
